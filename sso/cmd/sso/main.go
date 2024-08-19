@@ -17,7 +17,7 @@ func main() {
 
 	log := setUpLogger(cfg.Env)
 
-	log.Info("starting application", slog.String("env", cfg.Env))
+	log.Info("starting application")
 }
 
 func setUpLogger(env string) *slog.Logger {
